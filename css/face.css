@@ -1,0 +1,36 @@
+body {
+  background-image: url("../image/facebg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.bd2 {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.button1 {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+/*CUSTOM SELECTOR */
+.modaltext {
+  padding-left: 180px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.modalcl {
+  background-color: #182b3a;
+  background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+}

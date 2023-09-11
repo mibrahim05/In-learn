@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;
+}
+
+.custom-nav .custom-nav-item a {
+  color: #000 !important;
+}
+.crtxt,
+.nav-link {
+  font-weight: bolder;
+}
+.custom-nav-item:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 52, 89) 0%,
+    rgb(0, 168, 232) 90%
+  );
+  border-radius: 10px;
+}
+.bottom-banner {
+  color: #fff;
+  padding: 10px;
+}
+
+.bottom-banner:first-child {
+  padding-left: 50px;
+}
+
+a.social-hover:hover {
+  padding: 5px 100px;
+  text-decoration: none;
+  background-color: #1714db;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .my-content,
+  .txt-banner,
+  .stripe {
+    display: none;
+  } /* hide it on small screens */
+
+  .vid-content {
+    top: 12%;
+    left: 60%;
+  }
+  .custom-nav .custom-nav-item a {
+    padding: 10px 20px;
+    background-color: #225470;
+  }
+
+  .custom-nav-item:hover {
+    background-color: none;
+    border: none;
+    border-radius: none;
+  }
+}
+
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 5px solid #000;
+  border-radius: 5px;
+  align-items: center;
+}
+.form-header {
+  text-align: left;
+  font-weight: bold;
+}
+.modaltext {
+  padding-left: 180px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.modalcl {
+  background-color: #182b3a;
+  background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+}
